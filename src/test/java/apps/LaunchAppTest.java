@@ -22,7 +22,6 @@ public class LaunchAppTest
         options = new UiAutomator2Options();
         options.setPlatformName(MobilePlatform.ANDROID);
         options.setCapability("appPackage", "com.bsi.appinfo");
-        options.setCapability("appActivity","" );
         options.setCapability("appActivity", ".ui.activity.MainActivity");
     }
 
