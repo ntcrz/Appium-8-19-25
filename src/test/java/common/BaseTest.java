@@ -25,6 +25,7 @@ public class BaseTest
     void driverSetup() throws MalformedURLException
     {
         driver = new AndroidDriver(new URL("http://192.168.4.44:4723"), options);
+
     }
 
 

@@ -18,9 +18,8 @@ public class LongmanTest extends BaseTest
     }
 
     @Test
-    void longman()
-    {
-
+    void longman() throws InterruptedException {
+        Thread.sleep(8000);
         driver.findElement(AppiumBy.id("advanced3nd.ofamerican.english:id/etValueSearch")).sendKeys("selenium");
         WebElement result = driver.findElement(AppiumBy.id("advanced3nd.ofamerican.english:id/tvWord"));
         assertEquals("selenium", result.getText());
